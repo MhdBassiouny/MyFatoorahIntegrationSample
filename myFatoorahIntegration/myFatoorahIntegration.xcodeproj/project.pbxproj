@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392016992C8C7D4F0086A82D /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392016982C8C7D4F0086A82D /* CustomAsyncImage.swift */; };
+		399E50AD2C92BA90005F38E1 /* MFPaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E50AC2C92BA90005F38E1 /* MFPaymentManager.swift */; };
+		399E50AF2C92BAE9005F38E1 /* MFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E50AE2C92BAE9005F38E1 /* MFCardView.swift */; };
+		399E50B12C92BB73005F38E1 /* MFApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E50B02C92BB73005F38E1 /* MFApplePayButton.swift */; };
+		399E50B32C92BBF0005F38E1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E50B22C92BBF0005F38E1 /* Helper.swift */; };
+		39F8BC7A2C8B64CD00082DE0 /* myFatoorahIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC792C8B64CD00082DE0 /* myFatoorahIntegrationApp.swift */; };
+		39F8BC7E2C8B64CF00082DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F8BC7D2C8B64CF00082DE0 /* Assets.xcassets */; };
+		39F8BC812C8B64CF00082DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F8BC802C8B64CF00082DE0 /* Preview Assets.xcassets */; };
+		39F8BC8C2C8B64EE00082DE0 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC882C8B64EE00082DE0 /* CartManager.swift */; };
+		39F8BC8D2C8B64EE00082DE0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC892C8B64EE00082DE0 /* Product.swift */; };
+		39F8BC8E2C8B64EE00082DE0 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC8A2C8B64EE00082DE0 /* ProductList.swift */; };
+		39F8BC942C8B658500082DE0 /* ProductListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC8F2C8B658400082DE0 /* ProductListItem.swift */; };
+		39F8BC972C8B658500082DE0 /* CartListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC922C8B658400082DE0 /* CartListItem.swift */; };
+		39F8BC982C8B658500082DE0 /* ProductQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC932C8B658500082DE0 /* ProductQuantity.swift */; };
+		39F8BC9D2C8B67CD00082DE0 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BC9B2C8B67CD00082DE0 /* CartView.swift */; };
+		39F8BCA12C8B686700082DE0 /* MyFatoorah in Frameworks */ = {isa = PBXBuildFile; productRef = 39F8BCA02C8B686700082DE0 /* MyFatoorah */; };
+		39F8BCB32C8B78F100082DE0 /* MFPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8BCB22C8B78F100082DE0 /* MFPaymentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		392016982C8C7D4F0086A82D /* CustomAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		399E50AC2C92BA90005F38E1 /* MFPaymentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFPaymentManager.swift; sourceTree = "<group>"; };
+		399E50AE2C92BAE9005F38E1 /* MFCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFCardView.swift; sourceTree = "<group>"; };
+		399E50B02C92BB73005F38E1 /* MFApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFApplePayButton.swift; sourceTree = "<group>"; };
+		399E50B22C92BBF0005F38E1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		39F8BC762C8B64CD00082DE0 /* myFatoorahIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFatoorahIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F8BC792C8B64CD00082DE0 /* myFatoorahIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFatoorahIntegrationApp.swift; sourceTree = "<group>"; };
+		39F8BC7D2C8B64CF00082DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F8BC802C8B64CF00082DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39F8BC882C8B64EE00082DE0 /* CartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		39F8BC892C8B64EE00082DE0 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		39F8BC8A2C8B64EE00082DE0 /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		39F8BC8F2C8B658400082DE0 /* ProductListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListItem.swift; sourceTree = "<group>"; };
+		39F8BC922C8B658400082DE0 /* CartListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartListItem.swift; sourceTree = "<group>"; };
+		39F8BC932C8B658500082DE0 /* ProductQuantity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductQuantity.swift; sourceTree = "<group>"; };
+		39F8BC9B2C8B67CD00082DE0 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		39F8BCB22C8B78F100082DE0 /* MFPaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFPaymentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F8BC732C8B64CD00082DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8BCA12C8B686700082DE0 /* MyFatoorah in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395B53DE2C922C4B00BCC50C /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC9B2C8B67CD00082DE0 /* CartView.swift */,
+				39F8BC882C8B64EE00082DE0 /* CartManager.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		399E50AB2C92BA5A005F38E1 /* MFPayment */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BCB22C8B78F100082DE0 /* MFPaymentView.swift */,
+				399E50AC2C92BA90005F38E1 /* MFPaymentManager.swift */,
+				399E50AE2C92BAE9005F38E1 /* MFCardView.swift */,
+				399E50B02C92BB73005F38E1 /* MFApplePayButton.swift */,
+				399E50B22C92BBF0005F38E1 /* Helper.swift */,
+			);
+			path = MFPayment;
+			sourceTree = "<group>";
+		};
+		39DB9F762C8B93C100B05BA5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				395B53DE2C922C4B00BCC50C /* Cart */,
+				39DB9F772C8B93D300B05BA5 /* Product List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		39DB9F772C8B93D300B05BA5 /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC8A2C8B64EE00082DE0 /* ProductList.swift */,
+			);
+			path = "Product List";
+			sourceTree = "<group>";
+		};
+		39DB9F792C8B948800B05BA5 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC8F2C8B658400082DE0 /* ProductListItem.swift */,
+				39F8BC922C8B658400082DE0 /* CartListItem.swift */,
+				39F8BC932C8B658500082DE0 /* ProductQuantity.swift */,
+				392016982C8C7D4F0086A82D /* CustomAsyncImage.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		39F8BC6D2C8B64CD00082DE0 = {
+			isa = PBXGroup;
+			children = (
+				39F8BC782C8B64CD00082DE0 /* myFatoorahIntegration */,
+				39F8BC772C8B64CD00082DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F8BC772C8B64CD00082DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC762C8B64CD00082DE0 /* myFatoorahIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F8BC782C8B64CD00082DE0 /* myFatoorahIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				399E50AB2C92BA5A005F38E1 /* MFPayment */,
+				39F8BCB02C8B77AD00082DE0 /* App */,
+				39DB9F762C8B93C100B05BA5 /* Modules */,
+				39DB9F792C8B948800B05BA5 /* Custom Views */,
+				39F8BCB12C8B77C000082DE0 /* Models */,
+				39F8BC7F2C8B64CF00082DE0 /* Preview Content */,
+			);
+			path = myFatoorahIntegration;
+			sourceTree = "<group>";
+		};
+		39F8BC7F2C8B64CF00082DE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC802C8B64CF00082DE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39F8BCB02C8B77AD00082DE0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC792C8B64CD00082DE0 /* myFatoorahIntegrationApp.swift */,
+				39F8BC7D2C8B64CF00082DE0 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		39F8BCB12C8B77C000082DE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39F8BC892C8B64EE00082DE0 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F8BC752C8B64CD00082DE0 /* myFatoorahIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F8BC842C8B64CF00082DE0 /* Build configuration list for PBXNativeTarget "myFatoorahIntegration" */;
+			buildPhases = (
+				39F8BC722C8B64CD00082DE0 /* Sources */,
+				39F8BC732C8B64CD00082DE0 /* Frameworks */,
+				39F8BC742C8B64CD00082DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFatoorahIntegration;
+			packageProductDependencies = (
+				39F8BCA02C8B686700082DE0 /* MyFatoorah */,
+			);
+			productName = myFatoorahIntegration;
+			productReference = 39F8BC762C8B64CD00082DE0 /* myFatoorahIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F8BC6E2C8B64CD00082DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					39F8BC752C8B64CD00082DE0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 39F8BC712C8B64CD00082DE0 /* Build configuration list for PBXProject "myFatoorahIntegration" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F8BC6D2C8B64CD00082DE0;
+			packageReferences = (
+				39F8BC9F2C8B686700082DE0 /* XCRemoteSwiftPackageReference "MF-SDK-iOS-Demo" */,
+			);
+			productRefGroup = 39F8BC772C8B64CD00082DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F8BC752C8B64CD00082DE0 /* myFatoorahIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F8BC742C8B64CD00082DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8BC812C8B64CF00082DE0 /* Preview Assets.xcassets in Resources */,
+				39F8BC7E2C8B64CF00082DE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F8BC722C8B64CD00082DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392016992C8C7D4F0086A82D /* CustomAsyncImage.swift in Sources */,
+				399E50B32C92BBF0005F38E1 /* Helper.swift in Sources */,
+				39F8BCB32C8B78F100082DE0 /* MFPaymentView.swift in Sources */,
+				399E50AD2C92BA90005F38E1 /* MFPaymentManager.swift in Sources */,
+				399E50AF2C92BAE9005F38E1 /* MFCardView.swift in Sources */,
+				39F8BC982C8B658500082DE0 /* ProductQuantity.swift in Sources */,
+				39F8BC942C8B658500082DE0 /* ProductListItem.swift in Sources */,
+				39F8BC8E2C8B64EE00082DE0 /* ProductList.swift in Sources */,
+				39F8BC9D2C8B67CD00082DE0 /* CartView.swift in Sources */,
+				399E50B12C92BB73005F38E1 /* MFApplePayButton.swift in Sources */,
+				39F8BC8D2C8B64EE00082DE0 /* Product.swift in Sources */,
+				39F8BC8C2C8B64EE00082DE0 /* CartManager.swift in Sources */,
+				39F8BC7A2C8B64CD00082DE0 /* myFatoorahIntegrationApp.swift in Sources */,
+				39F8BC972C8B658500082DE0 /* CartListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39F8BC822C8B64CF00082DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F8BC832C8B64CF00082DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F8BC852C8B64CF00082DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myFatoorahIntegration/Preview Content\"";
+				DEVELOPMENT_TEAM = KP75A62474;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payment.myFatoorahIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F8BC862C8B64CF00082DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myFatoorahIntegration/Preview Content\"";
+				DEVELOPMENT_TEAM = KP75A62474;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payment.myFatoorahIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F8BC712C8B64CD00082DE0 /* Build configuration list for PBXProject "myFatoorahIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8BC822C8B64CF00082DE0 /* Debug */,
+				39F8BC832C8B64CF00082DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F8BC842C8B64CF00082DE0 /* Build configuration list for PBXNativeTarget "myFatoorahIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8BC852C8B64CF00082DE0 /* Debug */,
+				39F8BC862C8B64CF00082DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39F8BC9F2C8B686700082DE0 /* XCRemoteSwiftPackageReference "MF-SDK-iOS-Demo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://dev.azure.com/myfatoorahsc/_git/MF-SDK-iOS-Demo";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.149;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39F8BCA02C8B686700082DE0 /* MyFatoorah */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39F8BC9F2C8B686700082DE0 /* XCRemoteSwiftPackageReference "MF-SDK-iOS-Demo" */;
+			productName = MyFatoorah;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39F8BC6E2C8B64CD00082DE0 /* Project object */;
+}
